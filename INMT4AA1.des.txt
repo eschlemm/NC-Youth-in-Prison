@@ -1,0 +1,68 @@
+Name          Description                        Type      Start   Length
+CIDORNUM      INMATE DOC NUMBER                  CHAR      1       7     
+CICLSTNM      INMATE LAST NAME                   CHAR      8       20    
+CICFSTNM      INMATE FIRST NAME                  CHAR      28      11    
+CICMIDIN      INMATE MIDDLE INITIAL              CHAR      39      1     
+CICSUFIX      INMATE NAME SUFFIX                 CHAR      40      3     
+GISNDXCN      INMATE NAME SOUNDEX CODE           CHAR      43      4     
+CICLSEX       INMATE GENDER CODE                 CHAR      47      30    
+CICLRACE      INMATE RACE CODE                   CHAR      77      30    
+CICLBRTH      INMATE BIRTH DATE                  DATE      107     10    
+CIETHNIC      INMATE ETHNIC AFFILIATION          CHAR      117     30    
+INMRCDSTA     INMATE RECORD STATUS CODE          CHAR      147     30    
+CIINSTAT      INMATE ADMIN. STATUS CODE          CHAR      177     30    
+CICCLASS      CUSTODY CLASS CODE                 CHAR      207     30    
+NXTCUSREV     NEXT CUSTODY REVIEW DATE           DATE      237     10    
+CIHISEC       INMATE CONTROL STATUS CODE         CHAR      247     30    
+NXTSECREV     NEXT SECURITY REVIEW DATE          DATE      277     10    
+CDSPCCHR      INMATE SPECIAL CHARACTERISTICS     CHAR      287     30    
+PARANAL       PAROLE CASE ANALYST                CHAR      317     5     
+NXTPCREV      NEXT PAROLE COMM. REVIEW DATE      DATE      322     10    
+CDPRMASS      INMATE PRIMARY ASSIGNMENT          CHAR      332     30    
+CIRADMDT      INMATE ADMISSION DATE              DATE      362     10    
+CIADMLOC      ADMITTING DIAGNOSTIC CENTER        CHAR      372     30    
+CILAMVDT      DATE OF LAST INMATE MOVEMENT       DATE      402     10    
+CILAMVTY      TYPE OF LAST INMATE MOVEMENT       CHAR      412     30    
+CIOTHLOC      OTHER FACILITY CODE                CHAR      442     30    
+CICURCMD      CURRENT DOP COMMAND CODE           CHAR      472     5     
+CICURAREA     CURRENT DOP AREA CODE              CHAR      477     5     
+CICURLOC      INMATE FACILITY CODE               CHAR      482     30    
+TMCOMPSTA     INMATE TIME COMP STATUS CODE       CHAR      512     30    
+CIOLDPFX      OLDEST COMMIT.OF CURRENT INCAR     CHAR      542     2     
+CIOLDCMP      OLDEST SNT.CMP. OF CURR.INCAR.     CHAR      544     3     
+CICONVDT      OLDEST CONVICTION DATE             DATE      547     10    
+TOTSENCMP     TOTAL SENTENCE COUNT               DECIMAL   557     4     
+CIPRIOFF      MOST SERIOUS OFFNSE CURR INCAR     CHAR      561     30    
+CIFELONY      INMATE IS FELON/MISDEMEANANT       CHAR      591     30    
+CIPREFX2      CURRENT COMMITMENT PREFIX          CHAR      621     2     
+CISENCM2      CURRENT SENTENCE COMPONENT         CHAR      623     3     
+CITOTSNT      TOTAL SENTENCE LENGTH(IN DAYS)     DECIMAL   626     6     
+LGTHINCAR     LENGTH OF CURRENT INCARCERATN.     CHAR      632     7     
+CIRULSNT      TERM OF INCARCERATION(IN DAYS)     DECIMAL   639     6     
+LGTHRSENT     LENGTH OF RULING SENTENCES         CHAR      645     7     
+CIRULCOM      LAST RULING PRD COMMITMENT         CHAR      652     2     
+CIRULCMP      LAST RULING PRD COMPONENT          CHAR      654     3     
+GIRPED        FINAL RULING PED                   DATE      657     10    
+GIRTRD        FINAL RULING TRD                   DATE      667     10    
+GIRPRD        FINAL RULING PRD                   DATE      677     10    
+GIRMAX        FINAL RULING MAX RELEASE DATE      DATE      687     10    
+CIGTLAW       LAW FOR FINAL RULING DATES         CHAR      697     30    
+CIDYSERV      DAYS SERVED IN DOC CUSTODY         DECIMAL   727     5     
+CIXCALDT      DATE TRD & PRD LAST COMPUTED       DATE      732     10    
+GTONOFF       ON/OFF GAIN TIME CODE              CHAR      742     30    
+CIGTRATE      GT RATE / ET LEVEL CODE            CHAR      772     30    
+CIGTDATE      LAST DATE ON/OFF GAIN TIME         DATE      802     10    
+TOTINFRAC     TOTAL DISCIPLINE INFRACTIONS       DECIMAL   812     3     
+LSTINFRAC     LATEST DISCIPLINE INFRACTION       CHAR      815     30    
+LSTINFRDT     LAST DISCIPLINE INFRACTION DT.     DATE      845     10    
+CILPENDT      DATE OF LAST ARREST ON PAROLE      DATE      855     10    
+REVIEWSFL     CURRENT PENDING REVIEWS FLAG       CHAR      865     1     
+ESCAPESFL     ESCAPE HISTORY FLAG                CHAR      866     1     
+PRIORSFL      PRIOR INCARCERATIONS FLAG          CHAR      867     1     
+PBREVTYP      NEXT PAROLE REVIEW TYPE CODE       CHAR      868     30    
+CILAMVTM      TIME OF LAST MOVEMENT              TIME      898     8     
+POPUNIT       POPULATION/MANAGEMENT UNIT         CHAR      906     1     
+FPIDFLAG      INMATE POSITIVELY IDENTIFIED       CHAR      907     30    
+PTSTATUS      PAROLE AND TERMINATE STATUS        CHAR      937     30    
+CILABELS      INMATE LABEL STATUS CODE           CHAR      967     30    
+CIPRIQLF      PRIMARY OFFENSE QUALIFIER          CHAR      997     30    
