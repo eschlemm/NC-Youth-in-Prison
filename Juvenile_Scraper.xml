@@ -1,0 +1,340 @@
+<outwitAutomator>
+<documentproperties>
+<active>true</active>
+<url />
+<masterId>{f8e3a19a-f6df-495b-b675-5d18c1ae0dd7}</masterId>
+<name>Juvenile Inmates</name>
+<version>1.0</version>
+<versionId>{f8e3a19a-f6df-495b-b675-5d18c1ae0dd7}</versionId>
+<automatorType>scraper</automatorType>
+<kernelVersion>5.0.0.234</kernelVersion>
+<creationOutfit>OutWit Hub</creationOutfit>
+<author />
+<company />
+<created>2016-04-07T21:08:03-4:00</created>
+<lastModified>2016-04-07T21:08:03-4:00</lastModified>
+<comments />
+<options /><hash>KZ8hcbJjW4IFilkXtp++Dw==</hash>
+</documentproperties>
+<data>
+<line>
+<ok>true</ok>
+<description>Offender Number</description>
+<before>Offender Number:&lt;/b&gt;&lt;/td&gt;
+																	&lt;td align="left" width="220px" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Last Name</description>
+<before>Name Type&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class="tableRowOdd"&gt;
+&lt;td  class="tableCell" align="left" nowrap valign="top"&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Inmate Status</description>
+<before>Inmate Status:&lt;/b&gt;&lt;/td&gt;                                                                &lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace>#BACK#</replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Post Release Status</description>
+<before>Probation/Parole/Post Release Status:&lt;/b&gt;&lt;/td&gt;                                                                &lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace>#BASEURL#\0</replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Incarceration Status</description>
+<before>Incarceration Status:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace>#BASEURL#\0</replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Total Incarceration Term</description>
+<before>Total Incarceration Term:&lt;/b&gt;&lt;/td&gt;&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace>#nextToVisit()#;</replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Projected Release Date</description>
+<before>Projected Release Date:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Primary Crime</description>
+<before>Primary Crime:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Primary Crime Type</description>
+<before>Primary Crime Type:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Admission Date</description>
+<before>Admission Date:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Admitting Location</description>
+<before>Admitting Location:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Control Status</description>
+<before>Control Status:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Next Control Review</description>
+<before>Next Control Review:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Custody Classification</description>
+<before>Custody Classification:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Next Custody Review</description>
+<before>Next Custody Review:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Number Of Infractions</description>
+<before>Number Of Infractions:&lt;/b&gt;&lt;/td&gt;
+													&lt;td align="left" nowrap&gt;</before>
+<after>&amp;nbsp;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Last Infraction Date</description>
+<before>Last Infraction Date:&lt;/b&gt;&lt;/td&gt;
+													&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Current Location</description>
+<before>Current Location:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Previous Location</description>
+<before>Previous Location:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Last Movement </description>
+<before>Last Movement :&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Last Movement Date</description>
+<before>Last Movement Date:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Escapes</description>
+<before>Escapes?:&lt;/b&gt;&lt;/td&gt;
+															&lt;td align="left" nowrap colspan="4"&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Gender</description>
+<before>Gender:&lt;/b&gt;&lt;/td&gt;
+																	&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Race</description>
+<before>Race:&lt;/b&gt;&lt;/td&gt;
+																	&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Ethnic Group</description>
+<before>Ethnic Group:&lt;/b&gt;&lt;/td&gt;
+																	&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Birth Date</description>
+<before>Birth Date:&lt;/b&gt;&lt;/td&gt;
+																	&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Age</description>
+<before>Age:&lt;/b&gt;&lt;/td&gt;
+																	&lt;td align="left" nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Projected Release Date</description>
+<before>Projected Release Date:&lt;/b&gt;&lt;/td&gt;
+												&lt;td align="left" nowrap nowrap&gt;</before>
+<after>&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+<line>
+<ok>true</ok>
+<description>Full Name</description>
+<before>															&lt;table class="displaydatatable"&gt;
+																&lt;tr&gt;
+																	&lt;td align="center" colspan="2" nowrap&gt;&lt;b&gt;&lt;font size="+1"&gt;</before>
+<after>&lt;/font&gt;&lt;/b&gt;&lt;/td&gt;</after>
+<format></format>
+<replace></replace>
+<separator></separator>
+<labels></labels>
+</line>
+</data>
+</outwitAutomator>
